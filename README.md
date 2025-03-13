@@ -6,7 +6,7 @@ At the core of this repository is swiftrules.md, which serves as a high-level in
 
 Beyond this introduction, the repository includes discrete markdown files for each module, allowing AI-assisted development tools to efficiently retrieve relevant information. These files cover essential topics such as integration, error handling, environment-specific code, analytics, deep linking, and more, making them a helpful resource for AI-powered coding assistants.
 
-**Note:** These rules were inspired by [SwiftRules](https://github.com/danielraffel/SwiftRules), which, in turn, was heavily inspired by [Swift Cursor Rules](https://www.rayfernando.ai/swift-cursor-rules) and includes some verbatim text.
+**Note:** These rules were inspired by [SwiftRules](https://github.com/danielraffel/SwiftRules), which, in turn, was heavily inspired by [Swift Cursor Rules](https://www.rayfernando.ai/swift-cursor-rules) and includes some of its text verbatim.
 
 ## Prerequisites and Assumptions
 
