@@ -110,5 +110,4 @@ SwiftyLaunchRules/
 ├── inapppurchasekit-module.md  # InAppPurchaseKit rules
 ├── adskit.md                  # AdsKit rules
 ├── complete-sharedkit-guide.md# SharedKit rules
-└── developer-guidelines.md    # General developer guidelines
 ```
