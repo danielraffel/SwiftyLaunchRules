@@ -6,6 +6,19 @@ At the core of this repository is swiftrules.md, which serves as a high-level in
 
 Beyond this introduction, the repository includes discrete markdown files for each module, allowing AI-assisted development tools to efficiently retrieve relevant information. These files cover essential topics such as integration, error handling, environment-specific code, analytics, deep linking, and more, making them a helpful resource for AI-powered coding assistants.
 
+**Note:** These rules were inspired by [SwiftRules](https://github.com/danielraffel/SwiftRules), which, in turn, was inspired by [Swift Cursor Rules](https://www.rayfernando.ai/swift-cursor-rules).
+
+## Prerequisites and Assumptions
+
+These rules assume you are using the following extensions in Cursor, VSCode, or similar editors:
+
+- **[Sweetpad](https://sweetpad.hyzyla.dev)** – Enables command-line iOS app builds with Xcode.
+- **[InjectionIII](https://github.com/johnno1962/InjectionIII)** – Supports hot reloading for SwiftUI views.
+
+These best practices ensure your code remains clean, scalable, and maintainable by utilizing the latest SwiftUI features and adhering to the [VIPER architecture](https://medium.com/@pinarkocak/understanding-viper-pattern-619fa9a0b1f1).
+
+For a walkthrough on setting up Sweetpad and InjectionIII, check out [this video](https://www.youtube.com/watch?v=s7BVmsZSmWQ).
+
 ## What is SwiftyLaunch?
 
 SwiftyLaunch is an iOS app generator designed to streamline the development process by creating a new Xcode project with foundational code pre-written. By taking care of repetitive setup work, SwiftyLaunch allows developers to focus on what makes their app unique.
