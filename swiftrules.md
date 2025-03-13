@@ -77,7 +77,7 @@ SwiftyLaunch offers a collection of powerful, optional modules that developers c
 
 # Developer Guidelines for SwiftyLaunch
 
-This section consolidates rules and guidelines for integrating, managing, and troubleshooting SwiftyLaunch projects. 
+This section consolidates all rules and guidelines for integrating, managing, and troubleshooting SwiftyLaunch projects. All content from updated‑swiftrules.md is included below without any condensation so that every detail remains intact.
 
 ---
 
