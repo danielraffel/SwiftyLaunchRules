@@ -1,6 +1,6 @@
 # SwiftyLaunchRules
 
-The **SwiftyLaunchRules** repository is a collection of markdown files designed to be useful when working with [SwiftyLaunch](http://swiftylaun.ch) and developing with LLMs or AI-powered coding tools like Cursor. It provides a structured set of rules and guidelines currently supporting v1.5.
+The **SwiftyLaunchRules** repository is a collection of markdown files designed to be useful when working with [SwiftyLaunch](http://swiftylaun.ch) and developing with LLMs or AI-powered coding tools like [Cursor](https://docs.cursor.com/context/rules-for-ai). It provides a structured set of rules and guidelines currently supporting SwiftyLaunch v1.5.
 
 At the core of this repository is swiftrules.md, which serves as a high-level introduction to SwiftyLaunch. It provides an overview of the project’s structure, guiding principles, and details about the App Module, which is included in all projects.
 
@@ -19,11 +19,31 @@ These best practices ensure your code remains clean, scalable, and maintainable 
 
 For a walkthrough on setting up Sweetpad and InjectionIII, check out [this video](https://www.youtube.com/watch?v=s7BVmsZSmWQ).
 
+## Using AI Rules in Cursor
+
+### Rules for AI
+
+The rules in this repo help control the behavior of the underlying model by providing structured instructions and system prompts when working with SwiftyLaunch and the modules you install. 
+
+#### Project Rules (Recommended)
+
+Project rules offer a powerful and flexible system with path-specific configurations. They are stored in the `.cursor/rules` directory and provide granular control over AI behavior in different parts of your project.
+
+To create a new rule, use the command palette with `Cmd + Shift + P > New Cursor Rule`. Using project rules allows version control since rules are just text files.
+
+#### `.cursorrules`
+
+For backward compatibility, projects can still use a `.cursorrules` file at the root. However, it is recommended to migrate to the new **Project Rules** system for better flexibility and control.
+
+---
+
 ## What is SwiftyLaunch?
 
 SwiftyLaunch is an iOS app generator designed to streamline the development process by creating a new Xcode project with foundational code pre-written. By taking care of repetitive setup work, SwiftyLaunch allows developers to focus on what makes their app unique.
 
 ## SwiftyLaunch Modules
+
+**Tip:** It’s recommended to install all core rules, including **[App Module](swiftrules.md)** and **[SharedKit](complete-sharedkit-guide.md)**, as they are `included in all projects`. It is suggested to only install markdown files marked as `optional` if your project is actively using those specific, additional modules.
 
 SwiftyLaunch offers a collection of powerful, optional modules that developers can select based on their app's specific needs. Below is an overview of the modules along with links to their dedicated rule files:
 
