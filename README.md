@@ -119,15 +119,15 @@ SwiftyLaunch offers a collection of powerful, optional modules that developers c
 ```
 SwiftyLaunchRules/
 ├── README.md
-├── swiftrules.md              # App Module rules
-├── databasekit.md             # DatabaseKit rules
-├── authkit-module.md          # AuthKit rules
-├── backendkit.md              # BackendKit rules
-├── aikit.md                   # AIKit rules
-├── notifkit-module.md         # NotifKit rules
-├── analyticskit-rules.md      # AnalyticsKit rules
-├── swiftylaunch-analytics-integration.md   # Detailed analytics integration guidelines
-├── inapppurchasekit-module.md  # InAppPurchaseKit rules
-├── adskit.md                  # AdsKit rules
-├── complete-sharedkit-guide.md# SharedKit rules
+├── swiftrules.md                          # App Module rules (included in all projects)
+├── databasekit.md                         # DatabaseKit rules (Optional)
+├── authkit-module.md                      # AuthKit rules (Optional)
+├── backendkit.md                          # BackendKit rules (Optional)
+├── aikit.md                               # AIKit rules (Optional)
+├── notifkit-module.md                     # NotifKit rules (Optional)
+├── analyticskit-rules.md                  # AnalyticsKit rules (Optional)
+├── swiftylaunch-analytics-integration.md  # Detailed analytics integration guidelines (Optional)
+├── inapppurchasekit-module.md             # InAppPurchaseKit rules (Optional)
+├── adskit.md                              # AdsKit rules (Optional)
+├── complete-sharedkit-guide.md            # SharedKit rules (included in all projects)
 ```
